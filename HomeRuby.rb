@@ -17,7 +17,7 @@ class Home
   end
 
   def yaml_load
-    data = open('Homessages.yml', 'r') { |f| YAML.load(f) }
+    data = open("#{File.dirname(__FILE__)}/Homessages.yml", 'r') { |f| YAML.load(f) }
   end
 end
 
