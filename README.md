@@ -29,7 +29,7 @@ $ homehome 4
 よく頑張っているね、いつも見てるよ。
 ```
 
-デモ
+### デモ
 ![デモ](https://raw.githubusercontent.com/Madogiwa0124/HomeRuby/master/demo.gif "デモ")
 
 ## 褒め言葉を追加する
