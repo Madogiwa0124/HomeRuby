@@ -29,6 +29,15 @@ $ homehome 4
 よく頑張っているね、いつも見てるよ。
 ```
 
+`say`オプションをつけると音声付きで褒めて貰えます！
+```
+$ homehome 4 say
+この前のブログ、きれいにまとめられてたね！
+とても綺麗なコード書くね！
+ごめん、ジョブズと間違えちゃった。
+よく頑張っているね、いつも見てるよ。
+```
+
 ### デモ
 ![デモ](https://raw.githubusercontent.com/Madogiwa0124/HomeRuby/master/demo.gif "デモ")
 

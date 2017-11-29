@@ -26,5 +26,17 @@ class Home
   end
 end
 
-# 標準入力を取得し、結果を出力
-puts Home.new(ARGV[0].to_i).messages;
+# 標準入力を取得
+home_count = ARGV[0]
+voice_flg  = ARGV[1] == 'say'
+
+# メッセージを生成
+messages   = Home.new(home_count.to_i).messages;
+
+# メッセージの出力
+messages.each do |message|
+  # 標準出力
+  puts message
+  # 音声出力
+  system("say #{message}") if voice_flg
+end
