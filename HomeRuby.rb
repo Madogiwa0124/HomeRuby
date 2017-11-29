@@ -38,5 +38,5 @@ messages.each do |message|
   # 標準出力
   puts message
   # 音声出力
-  system("say #{message}") if voice_flg
+  system("say '#{message}'") if voice_flg
 end
